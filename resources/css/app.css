@@ -1,36 +1,54 @@
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: initial;
+#job_history{
+	padding-left:0;
+	margin:0;
+	list-style-type:none;
+	overflow-y:scroll;
+	height:535px;
+	border-top:2px solid #fff;
+	border-bottom:2px solid #fff;
+}
+#job_history li{
+	padding:10px 30px;
 }
 
-body
-{
-    color: black;
+#job_history .circle{
+    background-color:#000;
+    float: inline-start;
+    margin-top: 19px;
+    margin-right: 40px;
+	width: 19px;
+	height: 19px;
+    border-radius: 10px;
 }
 
- /* Style the header */
- .header {
-     padding: 10px 16px;
-     color: #f1f1f1;
- }
+#job_history .moment_box{
+	padding:20px;
+	color:#fff;
+	line-height:25px;
+	max-width:90%;
+	display:inline-block;
+    font-weight: bold;
+	text-align:left;
+	border-radius:5px;
+    background-color:#AAAAAA;
+}
 
- /* Page content */
- .content {
-     padding: 16px;
- }
+#job_history .company{
+    background-color:#55AA99;
+}
 
- /* The sticky class is added to the header with JS when it reaches its scroll position */
- .sticky {
-     position: fixed;
-     top: 0;
-     width: 100%
- }
+#job_history .position{
+    background-color:#FFAA99;
+    color:#000;
+    font-weight: unset;
+}
 
- /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
- .sticky+.content {
-     padding-top: 102px;
- }
+#job_history .triangle{
+    float: inline-start;
+    margin-top: 20px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 10px 10px 0px;
+    border-color: transparent #AAAAAA transparent transparent;
+}

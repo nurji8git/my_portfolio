@@ -5,7 +5,7 @@
       <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-            <img src="images/NA.jpg" width="50" height="50">
+            <img src="images/NA.jpg" width="50" height="50" alt="Avatar" style="border-radius: 50%;">
           </a>
 
           <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
@@ -36,7 +36,7 @@
             <li>
               <a href="#C5" class="nav-link text-white">
                 <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"></use></svg>
-                Career
+                Experience
               </a>
             </li>
             <li>
@@ -53,7 +53,6 @@
       <div class="container d-flex flex-wrap justify-content-end">
         <div class="text-end">
           <button type="button" class="btn btn-light text-dark me-2">Login</button>
-          <button type="button" class="btn btn-primary">Sign-up</button>
         </div>
       </div>
     </div>
