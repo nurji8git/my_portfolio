@@ -9,16 +9,6 @@
     <script src="js/app.js" crossorigin="anonymous"></script>
     <link rel="icon" href="images/favicon.ico" type="image/icon type">
     <link href="css/app.css" rel="stylesheet" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
     @yield('title')
 </head>
 <body>
