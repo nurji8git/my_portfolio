@@ -8,6 +8,8 @@ class LogoutController extends Controller
 {
     public function logout()
     {
-        
+        auth()->logout();
+
+        return redirect()->route('index');
     }
 }

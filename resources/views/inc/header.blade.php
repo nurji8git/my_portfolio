@@ -51,11 +51,20 @@
     </div>
     <div class="px-3 py-2 border-bottom mb-3">
       <div class="container d-flex flex-wrap justify-content-end">
-        @auth
+      @if(session('status'))
+        <h4 class="me-3 mt-1">
+            {{ session('status') }}
+          </h4>
+      @endif  
+      
+      @auth
           <h4 class="me-3 mt-1">
-            Nurjigit
-</h4>
-          <a class="btn btn-dark text-white me-2">Logout</a>
+            {{ auth()->user()->name }}
+          </h4>
+          <form action="{{ route('logout') }}" method="post">
+          @csrf
+          <button type="submit" class="btn btn-dark text-white me-2">Logout</button>
+          </form>
         @endauth
         @guest
           @include('inc.login')
