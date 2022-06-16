@@ -13,26 +13,7 @@
 </head>
 <body>
     <div class="container py-3">
-        @include('inc.header')
-        @include('chapters.welcome')
-        @include('chapters.about_me')
-        @include('chapters.my_projects')
-        @include('chapters.skills')
-        @include('chapters.experience')
-        @include('chapters.contacts')
+        <h1>ADMIN</h1>
     </div>
-    <script>
-        function show_login_form()
-        {
-            if (document.getElementById("login_form").classList.contains("show"))
-            {
-                document.getElementById("login_form").classList.remove("show");
-            }
-            else
-            {
-                document.getElementById("login_form").classList.add("show");
-            }
-        }
-    </script>
 </body>
 </html>
